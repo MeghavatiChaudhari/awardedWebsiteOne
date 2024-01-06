@@ -2,8 +2,103 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+     font-family: "General Sans";
 }
+
 html,body{
     width: 100%;
     height: 100%;
 }
+
+#hero{
+width: 100%;
+height: 100vh;
+background-color: #000000;
+color: #fff;
+}
+#nav {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+}
+
+#nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+#heading{
+    margin-top: 130px;
+}
+
+#heading h1{
+  margin-left: 40px;
+  opacity: .6;
+  font-size: 11vw;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 600;
+  /* padding: 10px; */
+}
+
+#heading #secondh1{
+  margin-left: 270px;
+}
+
+.blocktext{
+    width: fit-content;
+    /* background-color: red; */
+}
+.blocktext h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+#chotiheading{
+  margin-top: 100px;
+  padding-right: 50px;
+}
+#chotiheading h5{
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: .5vw;
+    font-size: 1vw;
+}
+
+#naya {
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    padding: 0 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#naya a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#naya #iconset{
+    display: flex;
+    gap: 7px;
+}
+
+#iconset .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: #888;
+    border-radius: 50%;
+
+}
+
+
+/* by now we have completed first viewport i.e hero div
+now moving to secnd part of page , animations */
